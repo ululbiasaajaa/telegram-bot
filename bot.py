@@ -6,7 +6,7 @@ from groq import Groq
 TELEGRAM_TOKEN = '8922799030:AAGz_5O_QwEvJllkMACQGACWK4YvbVFON8E'
 
 # Mengambil API Key secara aman dari Environment Variables Railway
-GROQ_API_KEY = os.getenv("GROQ_API_KEY")
+GROQ_API_KEY = "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"
 
 bot = telebot.TeleBot(TELEGRAM_TOKEN)
 client = Groq(api_key=GROQ_API_KEY)
