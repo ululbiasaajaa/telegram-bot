@@ -6,7 +6,7 @@ TELEGRAM_TOKEN = '8922799030:AAGz_5O_QwEvJllkMACQGACWK4YvbVFON8E'
 
 # API Key Groq (Gratis, nanti lu bisa ambil di console.groq.com)
 # Untuk sementara lu bisa pakai kode uji coba ini atau daftar sendiri gratis
-GROQ_API_KEY = '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'
+GROQ_API_KEY = 'MASUKKAN_API_KEY_DISINI'
 
 bot = telebot.TeleBot(TELEGRAM_TOKEN)
 client = Groq(api_key=GROQ_API_KEY)
