@@ -1,12 +1,12 @@
 import os
+import telebot
 from groq import Groq
 
 # Token Telegram lu dari BotFather
 TELEGRAM_TOKEN = '8922799030:AAGz_5O_QwEvJllkMACQGACWK4YvbVFON8E'
 
-# API Key Groq (Gratis, nanti lu bisa ambil di console.groq.com)
-# Untuk sementara lu bisa pakai kode uji coba ini atau daftar sendiri gratis
-GROQ_API_KEY = os.getenv("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")
+# Mengambil API Key secara aman dari Environment Variables Railway
+GROQ_API_KEY = os.getenv("GROQ_API_KEY")
 
 bot = telebot.TeleBot(TELEGRAM_TOKEN)
 client = Groq(api_key=GROQ_API_KEY)
